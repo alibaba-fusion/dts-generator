@@ -10,6 +10,9 @@
     "fusion",
     "next"
   ],
+  "bin": {
+    "dtsgen": "./bin/dtsgen.js"
+  },
   "homepage": "https://github.com/alibaba-fusion/dts-generator",
   "bugs": "https://github.com/alibaba-fusion/dts-generator/issues",
   "license": "MIT",
