@@ -1,0 +1,38 @@
+{
+  "name": "@alifd/dts-generator",
+  "version": "1.0.0",
+  "description": "A tool to generate *.d.ts by specified api schema.",
+  "keywords": [
+    "react",
+    "api",
+    "d.ts",
+    "typescript",
+    "fusion",
+    "next"
+  ],
+  "homepage": "https://github.com/alibaba-fusion/dts-generator",
+  "bugs": "https://github.com/alibaba-fusion/dts-generator/issues",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alibaba-fusion/dts-generator.git"
+  },
+  "scripts": {
+    "lint": "eslint 'lib/**/*.js'",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "prettier": "^1.14.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "husky": "^0.14.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
